@@ -527,6 +527,9 @@ body {
   flex: 0 0 40%;
   max-width: 40%;
 }
+.partnership .partnership-img img {
+  object-position: right;
+}
 
 .partnership-second .partnership-body {
   background-color: #F03FFF;
@@ -620,3 +623,10 @@ body {
   text-align: center;
   cursor: pointer;
 }
+
+/*@keyframes ellipse
+ * from
+ * 	opacity: 0
+ *
+ * to
+ * 	opacity: 1 */
